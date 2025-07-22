@@ -10,13 +10,13 @@
   "theme_color": "#317EFB",
   "icons": [
     {
-      "src": "sam-final.png",
+      "src": "mess2.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "sam-final.png",
+      "src": "mess2.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
