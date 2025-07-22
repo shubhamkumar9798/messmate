@@ -1,6 +1,6 @@
 {
-  "name": "My PWA App",
-  "short_name": "PWAApp",
+  "name": "Mess Mate",
+  "short_name": "MessMate",
   "description": "A Progressive Web App built with Next.js",
   "start_url": "/",
   "scope": "/",
