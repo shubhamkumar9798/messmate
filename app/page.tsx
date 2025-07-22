@@ -1,10 +1,13 @@
 import Image from "next/image";
 import { Card, CardContent } from "@/components/ui/card";
 import InstallPrompt from "@/components/InstallPrompt";
+import MenuSelector from "@/components/MenuSelector";
 
 export default function HomePage() {
   return (
-    <main className="min-h-screen bg-gradient-to-br from-amber-50 via-emerald-50 to-white flex items-center justify-center px-4">
+    <main className="min-h-screen bg-gradient-to-br from-amber-50 via-emerald-50 to-white flex flex-col items-center justify-start px-4 py-8 space-y-10">
+      
+      {/* Landing Card */}
       <Card className="max-w-6xl w-full shadow-2xl rounded-2xl overflow-hidden grid md:grid-cols-2 bg-white border-none">
         {/* Image Section */}
         <div className="relative h-[400px] md:h-[700px]">
@@ -30,6 +33,10 @@ export default function HomePage() {
           </p>
         </CardContent>
       </Card>
+
+      {/* Menu Selection Section */}
+      <MenuSelector />
+
       <InstallPrompt />
     </main>
   );
