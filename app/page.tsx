@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Card, CardContent } from "@/components/ui/card";
+import InstallPrompt from "@/components/InstallPrompt";
 
 export default function HomePage() {
   return (
@@ -29,6 +30,7 @@ export default function HomePage() {
           </p>
         </CardContent>
       </Card>
+      <InstallPrompt />
     </main>
   );
 }
